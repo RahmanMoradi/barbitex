@@ -1,0 +1,32 @@
+{
+	"authHost": "https://v6.exchange-demo.ir",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [],
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": true,
+	"host": "0.0.0.0",
+	"port": "6003",
+	"protocol": "https",
+	"socketio": {},
+	"secureOptions": 67108864,
+	"sslCertPath": "/usr/local/directadmin/data/users/v6market/domains/v6.exchange-demo.ir.cert",
+	"sslKeyPath": "/usr/local/directadmin/data/users/v6market/domains/v6.exchange-demo.ir.key",
+	"sslCertChainPath": "",
+	"sslPassphrase": "",
+	"subscribers": {
+		"http": true,
+		"redis": true
+	},
+	"apiOriginAllow": {
+		"allowCors": false,
+		"allowOrigin": "",
+		"allowMethods": "",
+		"allowHeaders": ""
+	}
+}
